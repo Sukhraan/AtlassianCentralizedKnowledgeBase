@@ -1,0 +1,214 @@
+.App{
+  background: rgb(255, 255, 255);
+}
+.login {
+  position: relative;
+  background: rgb(255, 255, 255);
+  height: 850px;
+  background-size: 100% 100%;
+}
+.login .login-bg{
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 50px;
+  background: rgb(240, 240, 240);
+  box-shadow: 2px 5px 10px rgba(58, 58, 58, 0.4);
+}
+.login .title{
+  width: 100%;
+  background: rgb(28, 46, 83);
+  height: 70px;
+  padding: 5px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.703);
+}
+.login .title h1{
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+.login-bg .login-form{
+  width: 300px;
+  margin: auto;
+  padding-bottom: 80px; 
+}
+.login-bg .login-form h6{
+  color: black;
+  padding-left: 20px;
+}
+.login-bg .login-form #input-id, .login-bg .login-form #input-pwd{
+  height: 60px;
+  margin: 5px;
+  width: 300px;
+  padding-left: 20px;
+  border: 1px solid rgb(240, 240, 240);
+  background-color: white;
+  font-size: 0.8em;
+}
+.login-bg .login-form #btn-login{
+  width: 310px;
+  height: 60px;
+  background: rgb(28, 46, 83);
+  border: 1px solid rgb(28, 46, 83);
+  border-radius: 5px;
+  font-size: 0.8em;
+  color: white;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.login-bg .login-form #btn-login:hover{
+  background: rgb(19, 31, 56);
+}
+
+/* Search */
+.search .search-bg{
+  width: 100%;
+  /* background: rgb(238, 238, 238); */
+}
+.search .title{
+  width: 100%;
+  background: rgb(28, 46, 83);
+  height: 70px;
+  padding: 5px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.703);
+}
+.search .title h1{
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+.search-bg .search-form{
+  width: 700px;
+  margin: auto;
+  margin-top: 150px;
+}
+.search-bg .search-form h6{
+  font-size: 1.3em;
+  text-align: center;
+}
+.search-bg .search-form #input-data{
+  height: 40px;
+  margin-left: 5px;
+  width: 400px;
+  padding-left: 20px;
+}
+.search-bg .search-form #btn-search{
+  width: 250px;
+  height: 50px;
+  background: rgb(48, 48, 104);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 40px;
+  font-size: 0.8em;
+  color: white;
+  font-weight: lighter;
+}
+.search-bg .search-form .data{
+  width: 650px;
+  /* background: rgb(224, 224, 224); */
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 0.5px solid rgb(233, 233, 240);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.search-form .data table{
+  /* width: 400px; */
+  width: 100%;
+  margin: auto;
+}
+.search-form .data table thead tr th{
+  padding: 20px;
+  padding-left: 30px;
+  border-bottom: 1px solid rgb(233, 233, 240);
+  font-size: 1.0em;
+  /* background: rgb(217, 217, 230); */
+}
+.search-form .data table tbody tr td{
+  padding: 15px;
+  padding-left: 30px;
+  font-size: 0.8em;
+  /* border: 1px solid rgb(240, 240, 248); */
+}
+.logout-bg .logout-form{
+  width: 200px;
+  margin-left: 80%;
+  margin-top: -42px;
+}
+.logout-bg .logout-form #btn-logout{
+  background: grey;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: 1px solid rgb(28, 46, 83);
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.137);
+}
+.logout-bg .logout-form #btn-logout:hover{
+  background: rgb(104, 102, 102);
+  /* background: rgb(214, 209, 209); */
+}
+/* Result */
+.result{
+  width: 100%;
+}
+.result .title{
+  width: 100%;
+  background: rgb(28, 46, 83);
+  height: 70px;
+  padding: 5px;
+  font-family: 'Merriweather', serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.703);
+}
+.result .title h1{
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+.result .result-bg{
+  width: 100%;
+}
+.result .result-bg .result-form{
+  width: 1200px;
+  margin: auto;
+  height: 300px;
+  margin-top: 50px;
+}
+.result .result-bg .result-form h4{
+  font-size: 2.0em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.result .result-bg table{
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.result .result-bg table thead tr th{
+  background: rgb(236, 236, 236);
+  padding: 20px;
+  text-align: center;
+}
+.result .result-bg table tbody tr td{
+  padding: 20px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+.result .result-bg .list-page table{
+  /* max-width: 150px; */
+  width: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+.result .result-bg .list-page table tbody tr th:hover{
+  border: 1px solid rgb(143, 143, 185);
+  /* color: pink; */
+  
+}
+.result .result-bg .list-page table tbody tr th{
+  padding: 15px;
+}

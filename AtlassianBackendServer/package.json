@@ -1,0 +1,19 @@
+{
+  "name": "atlassianbackendserver",
+  "version": "1.0.0",
+  "description": "Atlassian Backend server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.4",
+    "request": "^2.88.0"
+  }
+}
